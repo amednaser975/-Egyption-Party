@@ -339,12 +339,16 @@ header {
 {
   .dynamic-tabs {
     width: 100%;
+    margin: 20px auto;
   } 
   .tabs-list li {
     margin-bottom: .3rem;
   }
   .left-tabs .tabs-list li {
     margin-bottom: 0;
+  }
+  #switchTabs {
+    margin-left: 0;
   }
 }
 /* End Dynamic Tabs */
