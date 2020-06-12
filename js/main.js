@@ -124,7 +124,7 @@ function countDown() {
     
     let currentTime = new Date(),
         currentTimeByMillisconds = currentTime.getTime(),
-        eventTime = new Date(2020, 04, 14),
+        eventTime = new Date(2020, 12, 14),
         eventTimeByMillisconds = eventTime.getTime(),
         remainingTime = eventTimeByMillisconds - currentTimeByMillisconds;
     
