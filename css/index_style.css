@@ -262,7 +262,7 @@ header {
 @media (max-width:992px)
 {
   #duration {
-    height: 95vh;
+    height: 100vh;
   }
   #test div
   {
