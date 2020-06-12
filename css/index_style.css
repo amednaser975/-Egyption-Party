@@ -418,7 +418,10 @@ header {
   .social-icons {
     margin-bottom: 2rem;
   }
-}
+  .social-icons a i {
+    margin-bottom: 8px;
+  }
+  }
 /* End Contat Section */
 
 /* Start Scroll To Top button */
