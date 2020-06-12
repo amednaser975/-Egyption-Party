@@ -152,6 +152,14 @@ header {
   cursor: pointer;
   color: #fff;
 }
+
+@media (max-width:992px)
+{
+  #sideBar {
+    width: 50%;
+  }
+}
+
 /* End Fixed Side Bar*/
 
 /* Start Singers Section */
@@ -254,9 +262,12 @@ header {
 @media (max-width:992px)
 {
   #duration {
-    overflow: auto; 
-    width: 100vw;
-
+    height: 95vh;
+  }
+  #test div
+  {
+    align-items: center;
+    margin-bottom: 1rem;
   }
 }
 /* End Counter Section */
@@ -321,10 +332,14 @@ header {
 
 @media (max-width:992px)
 {
-  #duration {
-    overflow: auto; 
-    width: 100vw;
-
+  .dynamic-tabs {
+    width: 100%;
+  } 
+  .tabs-list li {
+    margin-bottom: .3rem;
+  }
+  .left-tabs .tabs-list li {
+    margin-bottom: 0;
   }
 }
 /* End Dynamic Tabs */
@@ -381,6 +396,16 @@ header {
 #maxChars {
     color: #d62e33;
     font-weight: bold;
+}
+
+@media (max-width:992px)
+{
+  #contact {
+    padding: 110px 20px;
+  }
+  .social-icons {
+    margin-bottom: 2rem;
+  }
 }
 /* End Contat Section */
 
