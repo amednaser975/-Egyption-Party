@@ -158,6 +158,9 @@ header {
   #sideBar {
     width: 50%;
   }
+  #sideBarBtn {
+    top: -383px;
+  }
 }
 
 /* End Fixed Side Bar*/
