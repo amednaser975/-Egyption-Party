@@ -179,6 +179,10 @@ header {
 #details .singer p.aciveP {
     display: block;
 }
+@media (max-width:992px)
+{
+  
+}
 /* End Singers Section */
 
 /* Start Shuffling Cards */
