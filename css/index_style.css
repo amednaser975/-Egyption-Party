@@ -179,10 +179,6 @@ header {
 #details .singer p.aciveP {
     display: block;
 }
-@media (max-width:992px)
-{
-  
-}
 /* End Singers Section */
 
 /* Start Shuffling Cards */
@@ -254,6 +250,15 @@ header {
 {
     text-align: center;
 }
+
+@media (max-width:992px)
+{
+  #duration {
+    overflow: auto; 
+    width: 100vw;
+
+  }
+}
 /* End Counter Section */
 
 /* Start Dynamic Tabs */
@@ -314,7 +319,14 @@ header {
   border-right: 1px solid #FFF
 }
 
+@media (max-width:992px)
+{
+  #duration {
+    overflow: auto; 
+    width: 100vw;
 
+  }
+}
 /* End Dynamic Tabs */
 
 /* Start Contat Section */
